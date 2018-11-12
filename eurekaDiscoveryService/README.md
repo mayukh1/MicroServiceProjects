@@ -1,4 +1,4 @@
-<p>To enable the discovery of the client :&nbsp;</p>
+<p>To enable the discovery of the client in your service application :&nbsp;</p>
 <ul>
 <li>Add the gradle entry for eureka discovery service api :<br />compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-eureka-client', version: '2.0.2.RELEASE'</li>
 <li>Add the annotation : <em>@EnableDiscoveryClient</em> in the application context class</li>
